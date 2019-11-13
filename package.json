@@ -1,0 +1,16 @@
+{
+  "name": "bili-monorepo",
+  "workspaces": [
+    "./packages/**"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-vue": "5.1.1",
+    "typescript": "^3.7.2"
+  }
+}
